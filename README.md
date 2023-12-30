@@ -1,3 +1,2 @@
 Alien Invasion Game
 Welcome to Alien Invasion, a classic 2D space shooter game built with Python and Pygame. Blast through waves of alien invaders, dodge their attacks, and try to achieve the highest score. Use arrow keys for movement, the spacebar to fire bullets, and beware of the alien fleet's tricky maneuvers. The game features dynamic difficulty, a scoring system, and cheat codes to enhance your gaming experience. Feel free to contribute, report issues, or customize the game to make it your own. Have a blast in space, and may the highest score be with you!
-Credits to Chat-GPT and Python Crash Course, 2nd Edition. Copyright © 2019 by Eric Matthes
