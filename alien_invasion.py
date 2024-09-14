@@ -70,7 +70,9 @@ class AlienInvasion:
                 if event.key == pygame.K_DOWN:
                     self.ship.moving_down=False
                 if event.key == pygame.K_SPACE:
-                   self.ship.is_firing=False
+                    self.ship.is_firing=False
+                     
+                   
     def _check_keydown_events(self,event):
                 
                 if event.key == pygame.K_RIGHT:
@@ -79,19 +81,19 @@ class AlienInvasion:
                 if event.key == pygame.K_LEFT:
                     self.ship.moving_left = True
                     self.ship.rect.x -= 1
-                if event.key == pygame.K_UP:
-                    self.ship.moving_up = True
-                    self.ship.rect.y -= 1
-                if event.key == pygame.K_DOWN:
-                    self.ship.moving_down = True
-                    self.ship.rect.y += 1
+                # if event.key == pygame.K_UP:
+                #     self.ship.moving_up = True
+                #     self.ship.rect.y -= 1
+                # if event.key == pygame.K_DOWN:
+                #     self.ship.moving_down = True
+                #     self.ship.rect.y += 1
                 if event.key ==pygame.K_q:
                     sys.exit()
                 if event.key ==pygame.K_SPACE:
                     self._fire_bullet()
                 
     def _fire_bullet(self):
-        self.ship.is_firing = True
+        self.ship.is_firing = True 
         if len(self.bullets) < self.settings.bullets_allowed:
             new_bullet=Bullet(self)
             self.bullets.add(new_bullet) 
