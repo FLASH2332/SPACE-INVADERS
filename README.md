@@ -1,7 +1,7 @@
 # Alien Invasion Game
 
-![Gameplay Screenshot](![Screenshot 2024-02-22 212854](https://github.com/FLASH2332/SPACE-INVADERS/assets/148314235/c193064e-b285-4bf3-b088-93a9055a8f08)
-)
+![Alien Invasion 14-09-2024 14_04_13](https://github.com/user-attachments/assets/39701af9-f3f5-4a6a-a94d-705cde7e9aea)
+
 
 ## Description
 
